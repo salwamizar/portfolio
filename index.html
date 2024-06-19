@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salwamizar.me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar">
+            <h2>Salwa <span>Mizar.</span></h2>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><i class='bx bx-x' ></i></a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                    <li><a href="#organization">Organization</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="#home">Home</a></li>
+                    <li class="hideOnMobile"><a href="#about">About</a></li>
+                    <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+                    <li class="hideOnMobile"><a href="#project">Project</a></li>
+                    <li class="hideOnMobile"><a href="#certificate">Certificate</a></li>
+                    <li class="hideOnMobile"><a href="#organization">Organization</a></li>
+                    <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                    <li onclick="showSidebar()" class="nav-menu"><a href=""></a><i class='bx bx-menu' ></i></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="home">
+            <div class="home-content">
+                <div class="text-content">
+                    <h3>Halo, perkenalkan nama saya :</h3>
+                    <h1>Salwa Az-zahra Mizar</h1>
+                    <h2>Frontend Engineer</h2>
+
+                    <button class="btn-contact"><a href="#contact">Hubungi Saya</a></button>
+                </div>
+                <div class="photo">
+                    <img src="profile - Copy.jpg" alt="">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="about-content">
+                <h1>About Me</h1>
+                <h2>Salwa Az-zahra Mizar</h2>
+                <h4>(Siswi jurusan SIJA)</h4>
+                <div class="about-text-content">
+                    <p>Saat ini saya adalah salah satu siswi di SMK Negeri 2 Depok dengan jurusan SIJA (Sistem Informasi Jaringan dan Aplikasi)</p>
+                </div>
+                <div class="about-photo">
+                    <img src="profile-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="skills">
+            <div class="skills-content">
+                <h1>Skills</h1>
+                <p>beberapa skill yang sudah berhasil saya pelajari</p>
+                <div class="skills-list">
+                    <div class="skill-box">
+                        <img src="icons8-html-5-480.png" alt="">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-box">
+                        <img src="icons8-css3-480.png" alt="">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-box">
+                        <img src="icons8-js-480.png" alt="">
+                        <p>JS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-circle-1"></div>
+        <div class="skills-circle-2"></div>
+        <img src="cream-wave-removebg-preview.png" class="skills-cream-wave">
+
+        <div id="project">
+            <div class="project-content">
+                <h1>Project</h1>
+                <p>Projek yang telah saya selesaikan</p>
+                <div class="project-list">
+                    <div class="project-box">
+                        <img src="laptop.png" alt="">
+                        <div class="project-text-content">
+                            <h2>Website "Bakoel"</h2>
+                            <p>sebagai Frontend Engineer</p>
+                            <button class="btn-project"><a href="https://mizar.sija-bridge.tech/bakoel/indexfix.php">Kunjungi Website</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="blue-wave-removebg-preview.png" class="project-blue-wave">
+
+        <div id="certificate">
+            <div class="certificate-content">
+                <h1>Certificate</h1>
+                <p>beberapa sertifikat atau penghargaan yang saya dapatkan</p>
+                <div class="certificate-list">
+                    <div class="certificate-box">
+                        <div class="certificate-img">
+                            <img src="skilvul cert.png" alt="">
+                        </div>
+                        <div class="certificate-desc">
+                            <h4>Sertifikasi Peserta Liga Nasional Skilvul 2024</h4>
+                        </div>
+                    </div>
+                    <div class="certificate-box">
+                        <div class="certificate-img">
+                            <img src="cj.jpg" alt="">
+                        </div>
+                        <div class="certificate-desc">
+                            <h4>Sertifikasi Finalis Cyber Jawara High School </h4>
+                        </div>
+                    </div>
+                    <div class="certificate-box">
+                        <div class="certificate-img">
+                            <img src="wip.png" alt="">
+                        </div>
+                        <div class="certificate-desc">
+                            <h4>Sertifikasi Peserta DBS Bootcamp Dicoding 2024 </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="organization">
+            <div class="process-wrapper">
+                <h1>Organization</h1>
+                <p>Pengalaman berorganisasi atau selama berorganisasi</p>
+                <div id="progress-bar-container">
+                    <ul>
+                        <li class="step step01 active"><div class="step-inner">Bendahara II BPPK</div></li>
+                        <li class="step step02"><div class="step-inner">Anggota Tim Tata Tertib Siswa</div></li>
+                        <li class="step step03"><div class="step-inner">Divisi Keamanan OpenHouse 2024</div></li>
+                    </ul>
+                    <div id="line">
+                        <div id="line-progress"></div>
+                    </div>
+                </div>
+                <div id="progress-content-section">
+                    <div class="section-content discovery active">
+                        <h2>Bendahara II BPPK</h2>
+                        <p>Berbahasa Penerapan pengetahuan dan Kesastraan (BPPK) merupakan salah satu Seksi Bidang yang berada di bawah naungan OSIS SMK Negeri 2 Depok Sleman. Saat  ini saya sedang menjabat dalam Seksi bidang tersebut sebagai Bendahara II<p>
+                    </div>
+                    <div class="section-content strategy">
+                        <h2>Anggota Tim Tata Tertib Siswa</h2>
+                        <p>Tim Tata Tertib Siswa mrupakan salah satu Seksi bidang yang juga dibawah naungan OSIS SMK Negeri 2 Depok Sleman yang bertugas untuk megatur tata tertib dilingkungan sekolah. Saya salah satu yang mewakili kelas saya dan terpilih menjadi Anggota dari Tim Tata Tertib Siswa</p>
+                    </div>
+                    <div class="section-content creative">
+                        <h2>Divisi Keamanan Open House</h2>
+                        <p>OpenHouse Stembayo 2024 merupakan event tahunan yang dipergunakan untuk mengenalkan lingkungan sekolah kepada calon peserta didik baru dan pada Kesempatan kali ini saya ikut kepanitiaan dan bertugas pada Divisi Keamanan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact-content">
+                <h1>Contact Me</h1>
+                <div class="contact-box">
+                    <p>Hubungi saya pada kontak yang ada di bawah ini :</p>
+                    <li><i class='bx bxl-github'></i> salwamizar</li>
+                    <li><i class='bx bxl-instagram' ></i> zhr.mizar</li>
+                    <li><i class='bx bxl-gmail' ></i> salwasalwamoe2001@gmail.com </li>
+                </div>
+            </div>
+            <img src="blue line (1).png" class="blue-line-contact">
+            <img src="cream line.png" class="cream-line-contact">
+        </div>
+
+        <div class="spacer layer1"></div>
+
+        <div id="footer">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-icons">
+                        <a href="https://github.com/salwamizar"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/zhr.mizar?igsh=enQwb28wcG5zcTlx"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#project">Project</a></li>
+                            <li><a href="#certificate">Certificate</a></li>
+                            <li><a href="#organization">Organization</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul> 
+                    </div>
+                    <div class="copyright">
+                        <p class="copyright">&copy; 2024 Salwa Az-zahra Mizar. Hak Cipta Dilindungi Undang-Undang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(".step").click(function() {
+            $(this).addClass("active").prevAll().addClass("active");
+            $(this).nextAll().removeClass("active");
+        });
+
+        $(".step01").click(function() {
+            $("#line-progress").css("width", "9%");
+            $(".discovery").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step02").click(function() {
+            $("#line-progress").css("width", "50%");
+            $(".strategy").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step03").click(function() {
+            $("#line-progress").css("width", "100%");
+            $(".creative").addClass("active").siblings().removeClass("active");
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll("nav ul li a");
+
+    links.forEach(link => {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
+            
+            targetSection.scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+});
+
+    </script>
+    <script>
+        function showSidebar() {
+            document.querySelector('.sidebar').classList.add('visible');
+        }
+
+        function hideSidebar() {
+            document.querySelector('.sidebar').classList.remove('visible');
+        }
+    </script>
+</body>
+</html>
