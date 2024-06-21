@@ -1298,9 +1298,9 @@ section {
 
     .sidebar {
         position: fixed;
-        right: -450px; /* Start hidden off-screen */
+        right: -400px; /* Start hidden off-screen */
         height: 100vh;
-        width: 400px;
+        width: 350px;
         z-index: 2;
     }
     
